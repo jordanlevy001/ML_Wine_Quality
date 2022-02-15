@@ -26,6 +26,7 @@ Columns:
 
 ![Wine Stats Image](https://github.com/jordanlevy001/ML_Wine_Quality/blob/main/Images/Wine%20Desc%20Stats.png)
 
+## Analysis
 
 #### Principal Component Analysis (PCA)
 PCA confirms the Volatile Acidity, Citric Acid, Sulphates, Alcohol metrics together account for 99% of the variance
@@ -34,6 +35,8 @@ PCA confirms the Volatile Acidity, Citric Acid, Sulphates, Alcohol metrics toget
 
 
 ### Random Forest Classifier
+Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts. Random forest models have been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data.
+
 The n_estimators will allow us to set the number of trees that will be created by the algorithm. Generally, the higher number makes the predictions stronger and more stable, but can slow down the output because of the higher training time allocated. The best practice is to use between 64 and 128 random forests.
 
 
