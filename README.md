@@ -24,4 +24,7 @@ Columns:
 13. ID
 
 
+![Wine Stats Image]Images/Wine Desc Stats
+
+
 ## Results
