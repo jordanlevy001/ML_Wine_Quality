@@ -10,21 +10,27 @@ Data Source: [Kaggle](https://www.kaggle.com/yasserh/wine-quality-dataset)
 
 Columns:
 1. Fixed Acidity
-2. Volatile Acidity
-3. Citric Acid
+2. *Volatile Acidity*
+3. *Citric Acid*
 4. Residual Sugar
 5. Chlorides
 6. Free Sulfure Dioxide
 7. Total Sulfur Dioxide
 8. Density
 9. pH
-10. Sulphates
-11. Alcohol
+10. *Sulphates*
+11. *Alcohol*
 12. Quality --> OUTPUT: this is the overall quality score
 13. ID -- this column was dropped
 
 
 ![Wine Stats Image](https://github.com/jordanlevy001/ML_Wine_Quality/blob/main/Images/Wine%20Desc%20Stats.png)
+
+
+#### Principal Component Analysis (PCA)
+PCA confirms the Volatile Acidity, Citric Acid, Sulphates, Alcohol metrics together account for 99% of the variance
+
+<img width="448" alt="Screen Shot 2022-02-15 at 11 24 54 AM" src="https://user-images.githubusercontent.com/88804543/154134246-ac22e71b-dca0-4788-b7db-29d03f25ad93.png">
 
 
 ## Results
