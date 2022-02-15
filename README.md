@@ -24,7 +24,7 @@ Columns:
 13. ID
 
 
-![Wine Stats Image]Images/Wine Desc Stats
+![Wine Stats Image](https://github.com/jordanlevy001/ML_Wine_Quality/blob/main/Images/Wine%20Desc%20Stats.png)
 
 
 ## Results
