@@ -33,4 +33,10 @@ PCA confirms the Volatile Acidity, Citric Acid, Sulphates, Alcohol metrics toget
 <img width="448" alt="Screen Shot 2022-02-15 at 11 24 54 AM" src="https://user-images.githubusercontent.com/88804543/154134246-ac22e71b-dca0-4788-b7db-29d03f25ad93.png">
 
 
+### Random Forest Classifier
+The n_estimators will allow us to set the number of trees that will be created by the algorithm. Generally, the higher number makes the predictions stronger and more stable, but can slow down the output because of the higher training time allocated. The best practice is to use between 64 and 128 random forests.
+
+
+
+
 ## Results
