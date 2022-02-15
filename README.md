@@ -21,7 +21,7 @@ Columns:
 10. Sulphates
 11. Alcohol
 12. Quality --> OUTPUT: this is the overall quality score
-13. ID
+13. ID -- this column was dropped
 
 
 ![Wine Stats Image](https://github.com/jordanlevy001/ML_Wine_Quality/blob/main/Images/Wine%20Desc%20Stats.png)
