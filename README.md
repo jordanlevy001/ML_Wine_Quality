@@ -68,6 +68,19 @@ Here is the updated DataFrame, with the highest weighted metrics: Volatile Acidi
 
 ## Analysis
 
+### Linear Regression
+Linear regression...
+
+#### Alcohol vs Quality
+
+<img width="391" alt="Alcohol v Quality" src="https://user-images.githubusercontent.com/88804543/154180858-b220da54-f47a-4172-988b-cdbbeb358358.png">
+
+
+#### Volatile Acidity vs Quality
+
+<img width="317" alt="Volatile Acidity vs Quality" src="https://user-images.githubusercontent.com/88804543/154180866-c0a56ffb-03d8-4a90-8a30-e414d35101c0.png">
+
+
 ### Random Forest Classifier
 Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts. Random forest models have been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data.
 
