@@ -9,16 +9,16 @@ Data Source: [Kaggle](https://www.kaggle.com/yasserh/wine-quality-dataset)
 
 Columns:
 1. Fixed Acidity
-2. *Volatile Acidity*
-3. *Citric Acid*
+2. **Volatile Acidity**
+3. **Citric Acid**
 4. Residual Sugar
 5. Chlorides
 6. Free Sulfure Dioxide
 7. Total Sulfur Dioxide
 8. Density
 9. pH
-10. *Sulphates*
-11. *Alcohol*
+10. **Sulphates**
+11. **Alcohol**
 12. Quality --> OUTPUT: this is the overall quality score
 13. ID -- this column was dropped
 
