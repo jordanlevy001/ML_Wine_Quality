@@ -92,9 +92,9 @@ Supervised learning can be divided into regression and classification. Regressio
 
 
 ### Random Forest Classifier
-Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts. Random forest models have been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data.
+Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally, random forest models are very similar to neural networks. Random forest models have been popular in machine learning algorithms for many years because of their scalability and robustness. Both output and feature selection of random forest models are easy to interpret. Random forest models can also easily handle outliers and nonlinear data.
 
-The n_estimators will allow us to set the number of trees that will be created by the algorithm. Generally, the higher number makes the predictions stronger and more stable, but can slow down the output because of the higher training time allocated. The best practice is to use between 64 and 128 random forests.
+The n_estimators will allow us to set the number of trees that will be created by the algorithm. Generally, the higher number makes the predictions stronger and more stable, but can slow down the output because of the higher training time allocated. The best practice is to use between 64 and 128 random forests. This analysis used 128.
 
 
 ### Random Forest Classifer vs Neural Networks
@@ -105,3 +105,49 @@ In addition, each model handles input data differently. Random forest models are
 As a result, the deep learning model might be able to identify variability in a dataset that a random forest model could miss. However, a random forest model with a sufficient number of estimators and tree depth should be able to perform at a similar capacity to most deep learning models.
 
 ## Results
+
+### Random Forest Classifer
+
+The Random Forest Classifier Accuracy Score was 63.3%
+
+<img width="427" alt="RFC Acc" src="https://user-images.githubusercontent.com/88804543/154317771-e676202a-452b-4184-90fa-013a5022e5b6.png">
+
+
+<img width="405" alt="RFC" src="https://user-images.githubusercontent.com/88804543/154319119-0811811d-f2fd-4ab1-8cd8-086bb4d9a0b7.png">
+
+
+
+
+### Optimizing the Random Forest Classifier
+
+As discussed above:
+
+- Only (6/1143) 0.5% of wines had a quality score of 3
+- Only (16/1143) ~1% of wines had a quality score of 8
+- Only (33/1143) ~3% of wines had a quality score of 4
+
+The quality scores of 3, 4, 8 were dropped from the model in an attempt to optimize the model. This increased the accuracy of the model by ~2%.
+
+<img width="422" alt="Opt RFC Acc Score" src="https://user-images.githubusercontent.com/88804543/154317756-04be8fcd-5930-4fbd-9e60-0a2faae08022.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
