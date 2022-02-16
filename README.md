@@ -23,9 +23,29 @@ Columns:
 13. ID -- this column was dropped
 
 
-![Wine Stats Image](https://github.com/jordanlevy001/ML_Wine_Quality/blob/main/Images/Wine%20Desc%20Stats.png)
+<img width="1117" alt="Wine Stats" src="https://user-images.githubusercontent.com/88804543/154178721-63f21163-eb1d-46bb-aaa1-35f497011f22.png">
+
 
 ## Data Processing
+
+Examining the trends when grouped by quality score:
+
+<img width="1092" alt="Group by QScore" src="https://user-images.githubusercontent.com/88804543/154178843-34e1d2f3-8491-411a-99d1-e3ea16b052e1.png">
+
+The trends observed from this table:
+- Volatile Acidity decreases with increasing quality score 
+- Citric Acid increases with increasing quality score
+- Sulphates increases with increasing quality score
+- Alcohol increases with increasing quality score
+
+Taking a closer look at: volatile acidity, citric acid, sulphates
+
+<img width="973" alt="Quality1" src="https://user-images.githubusercontent.com/88804543/154179178-5713213c-0599-4c52-81d8-a5e9218a0160.png">
+
+
+Taking a closer look at: chlorides, alcohol, pH
+
+<img width="948" alt="Quality2" src="https://user-images.githubusercontent.com/88804543/154179208-a2780459-c9db-4aa1-8a34-a73ccd99a0d6.png">
 
 
 
