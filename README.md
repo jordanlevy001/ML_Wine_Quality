@@ -15,11 +15,11 @@ Columns:
 5. Chlorides
 6. Free Sulfure Dioxide
 7. Total Sulfur Dioxide
-8. Density
+8. Density -- this column can also be dropped
 9. pH
 10. **Sulphates**
 11. **Alcohol**
-12. Quality --> OUTPUT: this is the overall quality score
+12. **Quality --> OUTPUT: this is the overall quality score**
 13. ID -- this column was dropped
 
 <img width="1117" alt="Wine Stats" src="https://user-images.githubusercontent.com/88804543/154178721-63f21163-eb1d-46bb-aaa1-35f497011f22.png">
@@ -66,10 +66,10 @@ Here is the updated DataFrame, with the highest weighted metrics: Volatile Acidi
 <img width="446" alt="Reduced DF" src="https://user-images.githubusercontent.com/88804543/154179638-456ccb74-26dc-4c93-a857-7784cb9d89e4.png">
 
 
-## Analysis
+## Analysis: Linear Regression, Random Forest Classifier
 
 ### Linear Regression
-Linear regression...
+Supervised learning can be divided into regression and classification. Regression is used to predict continuous variables. Whereas classification is used to predict discrete outcomes. For this wine analysis, the target variable (what we're trying to predict), is a quality score -- which is a continuous variable. The wine quality score is a numerical value within a given range, making it a continuous variable. In both classification and regression issues, the data is divided into features and targets. Features are the variable used to inform the prediction. The target/output is the predicted outcome.
 
 #### Alcohol vs Quality
 
