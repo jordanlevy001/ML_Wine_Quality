@@ -90,6 +90,8 @@ Supervised learning can be divided into regression and classification. Regressio
 
 <img width="317" alt="Volatile Acidity vs Quality" src="https://user-images.githubusercontent.com/88804543/154180866-c0a56ffb-03d8-4a90-8a30-e414d35101c0.png">
 
+Linear Regression Equation: -1.828x + 6.628
+
 
 ### Random Forest Classifier
 Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally, random forest models are very similar to neural networks. Random forest models have been popular in machine learning algorithms for many years because of their scalability and robustness. Both output and feature selection of random forest models are easy to interpret. Random forest models can also easily handle outliers and nonlinear data.
