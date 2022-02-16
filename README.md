@@ -29,7 +29,7 @@ Columns:
 
 Looking at the quality score counts:
 
-<img width="394" alt="Quality Score Counts" src="https://user-images.githubusercontent.com/88804543/154179779-cd04b4fd-2300-4dfd-8ac2-22d8ebe37790.png">
+<img width="434" alt="Quality Score Counts" src="https://user-images.githubusercontent.com/88804543/154179935-911cc753-3884-4529-9c64-03723b0a8262.png">
 
 - Only (6/1143) 0.5% of wines had a quality score of 3
 - Only (16/1143) ~1% of wines had a quality score of 8
