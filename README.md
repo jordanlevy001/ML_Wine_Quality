@@ -22,11 +22,19 @@ Columns:
 12. Quality --> OUTPUT: this is the overall quality score
 13. ID -- this column was dropped
 
-
 <img width="1117" alt="Wine Stats" src="https://user-images.githubusercontent.com/88804543/154178721-63f21163-eb1d-46bb-aaa1-35f497011f22.png">
 
 
-## Data Processing
+## Exploratory Data Analysis, Processing, Visualization
+
+Looking at the quality score counts:
+
+<img width="394" alt="Quality Score Counts" src="https://user-images.githubusercontent.com/88804543/154179779-cd04b4fd-2300-4dfd-8ac2-22d8ebe37790.png">
+
+- Only (6/1143) 0.5% of wines had a quality score of 3
+- Only (16/1143) ~1% of wines had a quality score of 8
+- Only (33/1143) ~3% of wines had a quality score of 4
+
 
 Examining the trends when grouped by quality score:
 
@@ -48,13 +56,15 @@ Taking a closer look at: chlorides, alcohol, pH
 <img width="948" alt="Quality2" src="https://user-images.githubusercontent.com/88804543/154179208-a2780459-c9db-4aa1-8a34-a73ccd99a0d6.png">
 
 
-
-
-
 #### Principal Component Analysis (PCA)
 PCA confirms the Volatile Acidity, Citric Acid, Sulphates, Alcohol metrics together account for 99% of the variance
 
 <img width="448" alt="Screen Shot 2022-02-15 at 11 24 54 AM" src="https://user-images.githubusercontent.com/88804543/154134246-ac22e71b-dca0-4788-b7db-29d03f25ad93.png">
+
+Here is the updated DataFrame, with the highest weighted metrics: Volatile Acidity, Citric Acid, Sulphates, Alcohol and quality (which is needed as the output).
+
+<img width="446" alt="Reduced DF" src="https://user-images.githubusercontent.com/88804543/154179638-456ccb74-26dc-4c93-a857-7784cb9d89e4.png">
+
 
 ## Analysis
 
