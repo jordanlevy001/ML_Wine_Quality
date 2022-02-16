@@ -3,6 +3,16 @@
 ## Project Overview
 Use machine learning to predict the overall quality score (likeability) of various wines
 
+## Technology/Software Utilized
+- Google Colab
+- TensorFlow, Keras
+- Scikit-learn
+- Pandas
+- Plotly
+- Seaborn
+- NumPy
+- Matplotlib
+- hvPlot
 
 ## Data
 Data Source: [Kaggle](https://www.kaggle.com/yasserh/wine-quality-dataset)
