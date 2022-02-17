@@ -1,7 +1,7 @@
 # Machine Learning: Wine Quality Scores
 
 ## Project Overview
-Use machine learning to predict the overall quality score (likeability) of various wines
+The goal of this project is to use linear regression and machine learning to predict the overall quality score (likeability) of various wines. The data for this project was obtained with free use from [Kaggle](https://www.kaggle.com/yasserh/wine-quality-dataset).
 
 ## Technology/Software Utilized
 - Google Colab
@@ -107,6 +107,8 @@ In addition, each model handles input data differently. Random forest models are
 As a result, the deep learning model might be able to identify variability in a dataset that a random forest model could miss. However, a random forest model with a sufficient number of estimators and tree depth should be able to perform at a similar capacity to most deep learning models.
 
 ## Results
+
+The principal component analysis (PCA) confirmed the four most important metrics for wine likeability are: volatile acidity, citric acid, sulphates, alcohol quantities. The most important of those four is alcohol quantity.
 
 ### Random Forest Classifer
 
